@@ -8,24 +8,25 @@ export default function Hypertext() {
     <div className='flex flex-col lg:flex-row'>
 
     <main className=" flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
-            <div className= "title" >
-             
+              <div className= "title">
+             <div >
       Editable and Shareable Resume builder <br />
       
               <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
             <a href="https://vercel.com/mussarat-shamshers-projects/milestone5-shareable-resume" target='blank'>Click</a></button> 
            
             </div>
-           
+           </div>
             <div>
                 
             </div>
         </main>
+
     
         <main className="flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
             <div className= "title" >
              
-            Portfolio <br />
+             Personal Portfolio <br />
              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
              <a href="https://www.npmjs.com/package/atm-by-mussarat" target='blank'> Click</a></button>
               <br />

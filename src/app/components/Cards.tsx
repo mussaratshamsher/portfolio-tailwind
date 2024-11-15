@@ -9,8 +9,8 @@ import nextjs from "./../../../public/nextjs.png";
 
 export function Typescript() {
   return (
-    <main className="w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
-        <div className= "title" >
+    <main className="w-[380px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+        <div className= "title" > <div  className='flex flex-col justify-center items-center'>
          TypeScript Projects
          <Image src={typescript} alt="" width={ 100} height={100}  className='mt-5'/>
          <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
@@ -18,7 +18,7 @@ export function Typescript() {
    </button>
         </div>
         <div>
-            
+            </div>
         </div>
     </main>
   )
@@ -26,14 +26,16 @@ export function Typescript() {
 
 export function Html() {
   return (
-    <main className="w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 ml-7 mt-5">
-        <div className= "title" >
-         TypeScript Projects
+    <main className="w-[380px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 ml-7 mt-5">
+        <div className= "title" > <div className='flex flex-col justify-center items-center' >
+         HTML Projects
          <Image src={html} alt="" width={ 100} height={100}  className='mt-5'/>
-         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>View</button>
+         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+          <a href="./../projects/hypertext">View</a>
+          </button>
         </div>
         <div>
-            
+            </div>
         </div>
     </main>
   )
@@ -41,15 +43,15 @@ export function Html() {
 
 export function Nextjs() {
   return (
-    <main className="w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 ml-7 mt-5">
-        <div className= "title" >
-         TypeScript Projects
+    <main className="w-[380px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 ml-7 mt-5">
+        <div className= "title" > <div className='flex flex-col justify-center items-center'>
+        Nextjs Projects
          <Image src={nextjs} alt="" width={ 100} height={100}  className='mt-5'/>
          <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
-          View</button>
+          <a href="./../projects/nextjs">View</a></button>
         </div>
         <div>
-            
+            </div>
         </div>
     </main>
   )
