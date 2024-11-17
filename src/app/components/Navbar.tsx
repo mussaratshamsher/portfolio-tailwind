@@ -12,7 +12,7 @@ export default function Navbar  () {
   setIsOpen(!isOpen);
 };
 
-// Close the menu when a menu item is clicked
+
 const handleLinkClick = () => {
   setIsOpen(false);
 };

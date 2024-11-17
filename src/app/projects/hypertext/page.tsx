@@ -8,7 +8,7 @@ export default function Hypertext() {
     <div className='flex flex-col lg:flex-row'>
 
     <main className=" flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto">
-              <div className= "title">
+              <div className= "name">
              <div >
        Resume builder <br />
       
@@ -24,7 +24,7 @@ export default function Hypertext() {
 
     
         <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto ">
-            <div className= "title" >
+            <div className= "name" >
              
              Personal Portfolio <br />
              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
@@ -39,7 +39,7 @@ export default function Hypertext() {
         </main>
     
         <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto ">
-            <div className= "title" >
+            <div className= "name" >
     
             Yummy Chocolates <br />
             

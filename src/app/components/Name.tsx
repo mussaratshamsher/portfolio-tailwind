@@ -5,10 +5,10 @@ import React from 'react'
 
 export default function Name() {
   return (
-    <div className='title'>
+    <div className='name' >
         
             <span>M</span>ussarat <span>S</span>hamsher <br />
-            Aspiring Web Developer
+            Aspiring Frontend Developer
        
     </div>
   )

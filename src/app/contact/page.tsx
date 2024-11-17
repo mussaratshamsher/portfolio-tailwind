@@ -18,12 +18,9 @@ const onclickHandler =(e: any)=> {
 
   return (
     <main>
-      <div className='title'>
+      <div className='name-h'>
       <i className='bx bxs-message'></i> Reach Me Out
       </div>
-
-
-
 
       <form className='flex flex-col justify-center items-center gap-2 mt-1'>
 

@@ -8,7 +8,7 @@ export default function Script() {
     <div className='flex flex-col lg:flex-row'>
 
     <main className=" flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
              
       Surprize Message Application <br />
       
@@ -23,7 +23,7 @@ export default function Script() {
         </main>
     
         <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
              
              ATM App <br />
              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
@@ -38,7 +38,7 @@ export default function Script() {
         </main>
     
         <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
     
              Student Management System <br />
             

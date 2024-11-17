@@ -11,7 +11,7 @@ export default function Home() {
 <Image src={flower} alt="" width={300} height={300} id="home" ></Image>
 <Image src={flower} alt="" width={300} height={300} id="home1" ></Image>
 <Name />
-<div id="title-h">
+<div id="name-h">
   <br />
 Building Tomorrow's <br />Technology Today!
         

@@ -9,7 +9,7 @@ export default function Nextjs() {
     <div className='flex flex-col lg:flex-row'>
 
     <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
           
           Whitepace website <br />
           Figma <br />
@@ -23,7 +23,7 @@ export default function Nextjs() {
 
 
     <main className=" flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
            Tourist Places<br /> of Karachi <br />
       
       
@@ -37,7 +37,7 @@ export default function Nextjs() {
        
     
         <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
-            <div className= "title" >
+            <div className= "name" >
     
             Governor Sindh Website <br />
             Homepage <br />

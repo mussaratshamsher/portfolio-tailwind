@@ -64,34 +64,35 @@ body {
     0px 0px 30px rgb(224, 223, 223);;}
 }
 
- .title{
+ .name{
       text-align: center;
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       justify-items: center;
-        width: 100%; 
+        width: 96%; 
         padding: 0%;
-       text-shadow: 3px 3px 8px rgb(252, 24, 252),
-       0px 0px 16px rgb(247, 14, 235),
-       0px 0px 32px rgb(245, 4, 245);
+       text-shadow: 3px 3px 8px rgb(197, 40, 197),
+       0px 0px 16px rgb(197, 40, 197),
+       0px 0px 32px rgb(197, 40, 197);
        color:white;
-        font-size: 40px;
+        font-size: 35px; margin: auto;
         box-sizing: border-box;
 } 
-#icon{ box-shadow: 0px 0px 8px rgb(252, 24, 252),
-  0px 0px 16px rgb(247, 14, 235),
-  0px 0px 32px rgb(245, 4, 245);
+#icon{ box-shadow: 0px 0px 8px rgb(197, 40, 197),
+  0px 0px 16px rgb(197, 40, 197),
+  0px 0px 32px rgb(197, 40, 197);
 
 }
-#title-h{
-  text-align: center;
-  justify-items: center;
-    width: 100%;
-    padding: 0%;
-   text-shadow: 3px 3px 8px rgb(145, 21, 228);
-   color: white;
-    font-size: 30px;
+#name-h{
+    text-align: center;
+    justify-items: center;
+    width: 96%;
+    padding: 0%; margin: auto;
+    text-shadow: 3px 3px 8px rgb(145, 21, 228);
+    color: white;
+    font-size: 20px;
     box-sizing: border-box;
 } 
 span{ 
-  font-size: 50px;
+  font-size: 40px;
 }
+
