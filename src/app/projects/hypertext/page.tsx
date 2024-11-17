@@ -7,12 +7,12 @@ export default function Hypertext() {
     <div >
     <div className='flex flex-col lg:flex-row'>
 
-    <main className=" flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+    <main className=" flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto">
               <div className= "title">
              <div >
-      Editable and Shareable Resume builder <br />
+       Resume builder <br />
       
-              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white '>
             <a href="https://vercel.com/mussarat-shamshers-projects/milestone5-shareable-resume" target='blank'>Click</a></button> 
            
             </div>
@@ -23,7 +23,7 @@ export default function Hypertext() {
         </main>
 
     
-        <main className="flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+        <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto ">
             <div className= "title" >
              
              Personal Portfolio <br />
@@ -38,7 +38,7 @@ export default function Hypertext() {
             </div>
         </main>
     
-        <main className="flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+        <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 m-auto ">
             <div className= "title" >
     
             Yummy Chocolates <br />

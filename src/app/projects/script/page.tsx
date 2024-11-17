@@ -7,7 +7,7 @@ export default function Script() {
     <div >
     <div className='flex flex-col lg:flex-row'>
 
-    <main className=" flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+    <main className=" flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
             <div className= "title" >
              
       Surprize Message Application <br />
@@ -22,7 +22,7 @@ export default function Script() {
             </div>
         </main>
     
-        <main className="flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+        <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
             <div className= "title" >
              
              ATM App <br />
@@ -37,7 +37,7 @@ export default function Script() {
             </div>
         </main>
     
-        <main className="flex flex-col w-[400px] h-[450px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-14 mt-5 ml-7">
+        <main className="flex flex-col w-[350px] h-[400px] rounded border-2 border-slate-100 shadow shadow-purple-600 p-8 mt-5 m-auto">
             <div className= "title" >
     
              Student Management System <br />
