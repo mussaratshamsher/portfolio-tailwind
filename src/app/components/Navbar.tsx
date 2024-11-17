@@ -23,7 +23,7 @@ return (  <div>
       onClick={toggleMenu}
       className="flex items-center p-2 text-white rounded-md focus:outline-none md:hidden"
     >
-      <i className={`bx bx-menu text-2xl ${isOpen ? "text-black" : "text-gray-500"}`}></i>
+      <i className={`bx bx-menu text-2xl ${isOpen ? "text-gray-300" : "text-white"}`}></i>
     </button>
     {isOpen && (
       <nav className="absolute top-12 right- w-48 bg-white shadow-lg z-50 rounded-md">

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='text-white text-4xl '>
-   <footer className='flex justify-center p-16'>
+   <footer className='flex justify-center  ml-8 mt-20 '>
    
     <a href="https://www.linkedin.com/in/mussarat-shamsher-b7b4072b8/" target="blank" 
     className='mr-7 rounded hover:border ' id='icon'><i className='bx bxl-linkedin' ></i></a>
