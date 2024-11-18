@@ -13,7 +13,7 @@ export default function Nextjs() {
           
           Whitepace website <br />
           Figma <br />
-             <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+             <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
              <a href="https://vercel.com/mussarat-shamshers-projects/figma-assign2" target='blank'> Click</a></button>
               <br />
               
@@ -27,7 +27,7 @@ export default function Nextjs() {
            Tourist Places<br /> of Karachi <br />
       
       
-              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+              <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
             <a href="" target='blank'>Click</a></button> 
            
             </div> <br />
@@ -42,7 +42,7 @@ export default function Nextjs() {
             Governor Sindh Website <br />
             Homepage <br />
             
-             <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+             <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
              <a href="" target='blank'> Click</a></button> <br />
            
             </div> 
@@ -53,7 +53,7 @@ export default function Nextjs() {
             
         </main> 
         </div><br />
-        <button className='w-100px h-50px mt-10 ml-20 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+        <button id='icon' className='w-100px h-50px mt-10 ml-20 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
         <a href="./../../projects"><i className='bx bxs-left-arrow'></i>Back</a></button>
         </div>
   )

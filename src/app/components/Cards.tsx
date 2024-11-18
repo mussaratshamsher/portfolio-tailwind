@@ -13,7 +13,7 @@ export function Typescript() {
         <div className= "name" > <div  className='flex flex-col justify-center items-center'>
          TypeScript Projects
          <Image src={typescript} alt="" width={ 100} height={100}  className='mt-5'/>
-         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white' id='icon'>
           <a href="./../projects/script">View</a>
    </button>
         </div>
@@ -30,7 +30,7 @@ export function Html() {
         <div className= "name" > <div className='flex flex-col justify-center items-center ' >
          HTML Projects
          <Image src={html} alt="" width={ 100} height={100}  className='mt-5'/>
-         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white' id='icon'>
           <a href="./../projects/hypertext">View</a>
           </button>
         </div>
@@ -49,7 +49,7 @@ export function Nextjs() {
       <div className='flex flex-col justify-center items-center ' >
      Nextjs Projects
      <Image src={nextjs} alt="" width={ 100} height={100}  className='mt-5'/>
-     <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+     <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white' id='icon'>
       <a href="./../projects/nextjs">View</a>
       </button>
     </div>

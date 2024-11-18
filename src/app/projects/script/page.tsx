@@ -12,7 +12,7 @@ export default function Script() {
              
       Surprize Message Application <br />
       
-              <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+              <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
             <a href="https://www.npmjs.com/package/surprize-message123-by-mussarat" target='blank'>Click</a></button> 
            
             </div> <br />
@@ -26,7 +26,7 @@ export default function Script() {
             <div className= "name" >
              
              ATM App <br />
-             <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+             <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
              <a href="https://www.npmjs.com/package/atm-by-mussarat" target='blank'> Click</a></button>
               <br />
               
@@ -42,7 +42,7 @@ export default function Script() {
     
              Student Management System <br />
             
-             <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+             <button id='icon' className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
              <a href="https://www.npmjs.com/package/student-management-sys-by-mussarat" target='blank'> Click</a></button> <br />
            
             </div> <br />
@@ -53,7 +53,7 @@ export default function Script() {
             
         </main> 
         </div><br />
-        <button className='w-100px h-50px mt-10 ml-20 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+        <button id='icon' className='w-100px h-50px mt-10 ml-20 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
         <a href="./../../projects"><i className='bx bxs-left-arrow'></i>Back</a></button>
         </div>
   )

@@ -10,31 +10,7 @@ body,
 }
 
 
-  /* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} 
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-   color: var(--foreground);
-  background: var(--background); 
-  font-family: Arial, Helvetica, sans-serif;
-} 
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}  
-*/
+ 
 #home1{
   width: 32%;
   height:32%;
@@ -61,7 +37,7 @@ body {
   0%{border-radius: 0%; box-shadow: 0px 0px 10px rgb(224, 223, 223);}
   100%{border-radius: 50%; box-shadow: 0px 0px 10px rgb(224, 223, 223),
      0px 0px 20px rgb(224, 223, 223),
-    0px 0px 30px rgb(224, 223, 223);;}
+    0px 0px 30px rgb(224, 223, 223);}
 }
 
  .name{
@@ -77,10 +53,13 @@ body {
         font-size: 35px; margin: auto;
         box-sizing: border-box;
 } 
-#icon{ box-shadow: 0px 0px 8px rgb(197, 40, 197),
-  0px 0px 16px rgb(197, 40, 197),
-  0px 0px 32px rgb(197, 40, 197);
+#icon{ box-shadow: 0px 0px 8px lightskyblue;
 
+}
+#icon:hover{ box-shadow: 0px 0px 8px lightskyblue,
+  0px 0px 16px  lightskyblue,
+  0px 0px 32px lightskyblue;
+ transition:1s  all;
 }
 #name-h{
     text-align: center;
