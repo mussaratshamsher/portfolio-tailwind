@@ -51,7 +51,7 @@ body {
   height:30%;
   position: absolute;
   z-index: -1;  
-  left: 35%; top: 30%;
+  left: 35%; top: 50%;
   animation-name: animate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -70,7 +70,7 @@ body {
       justify-items: center;
         width: 96%; 
         padding: 0%;
-       text-shadow: 3px 3px 8px rgb(197, 40, 197),
+       text-shadow: 3px 3px 8px rgb(214, 43, 185),
        0px 0px 16px rgb(197, 40, 197),
        0px 0px 32px rgb(197, 40, 197);
        color:white;

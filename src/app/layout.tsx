@@ -37,7 +37,7 @@ export default function RootLayout({
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-t from-purple-950 via-gray-700 to-slate-950`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-t from-purple-600 via-indigo-400 to-slate-950`}
       >
         <Navbar/>
         

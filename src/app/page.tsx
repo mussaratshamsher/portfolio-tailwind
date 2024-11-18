@@ -9,7 +9,7 @@ export default function Home() {
   return (
 <div className="w-96 flex flex-col justify-center items-center m-auto">
 <Image src={flower} alt="" width={300} height={300} id="home" ></Image>
-<Image src={flower} alt="" width={300} height={300} id="home1" ></Image>
+
 <Name />
 <div id="name-h">
   <br />
