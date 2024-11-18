@@ -8,6 +8,7 @@ import Image from "next/image"
 export default function Home() {
   return (
 <div className="w-96 flex flex-col justify-center items-center m-auto">
+  
 <Image src={flower} alt="" width={300} height={300} id="home" ></Image>
 
 <Name />
